@@ -1,4 +1,4 @@
-FROM ubuntu:focal
+FROM ubuntu@sha256:bfd9523988a26a8913fbced7d00b00805572d093c4d8cbc64252b45e032302d5
 LABEL maintainer="myoung34@my.apsu.edu"
 
 ARG DUMB_INIT_VERSION="1.2.2"
